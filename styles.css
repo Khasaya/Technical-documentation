@@ -1,13 +1,12 @@
 html, body{
-    display: block;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(216, 228, 224);
+    
+    background-color: rgb(230, 245, 240);
 }   
 main{
-  
-    padding: 10px 0 10px 0;
     top: 0;
     float: right;
+    max-width: 73%;
+    font-family: sans-serif;
 }
 code{
     background-color: rgb(160, 150, 140);
@@ -32,18 +31,47 @@ code{
 .nav-link{
     text-decoration: none;
     font-size: 1.5rem;
+    padding-bottom: 40px;
 
 }
-body > p{
-    font-family:sans-serif;
-    text-transform: none;
-    padding-bottom: 5px;
+@media (max-width: 800px){
+  
+    .nav-link:hover{
+        color: rgb(43, 226, 104);
+    }
+    .nav-link:active{
+        color: rgb(208, 255, 0);
+    }
     
 }
-.nav-link:hover{
-    color: rgb(43, 226, 104);
-}
-.nav-link:active{
-    color: rgb(208, 255, 0);
-}
 
+ol{
+    
+    padding-left: 25px;
+    font-size: larger;
+    top: 2em;
+}
+.navbar{
+    height: 100%;
+    width: 25%;
+    position:fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: 1;
+    left: 0;
+    display: flex;
+    text-overflow:clip;
+   
+}
+p, ul{
+    justify-content: space-between;
+    padding-bottom: 5px;
+    content:normal;
+    word-spacing: 2px;
+    letter-spacing: 0.8px;
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+h1{
+    color:blue;
+}
