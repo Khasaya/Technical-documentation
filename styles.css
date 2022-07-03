@@ -1,14 +1,17 @@
-html, body{
-    
+html,
+body {
+
     background-color: rgb(230, 245, 240);
-}   
-main{
+}
+
+main {
     top: 0;
     float: right;
     max-width: 73%;
     font-family: sans-serif;
 }
-code{
+
+code {
     background-color: rgb(160, 150, 140);
     border-radius: 0.5rem;
     margin: 2px 15px 2px 75px;
@@ -17,61 +20,72 @@ code{
     padding-left: 20px;
     padding-right: 70px;
     max-width: 50%;
-    text-overflow:initial;
+    text-overflow: initial;
     display: inline-block;
     font-weight: 200px;
-    
-  
-    
+
+
+
 }
-#header{
+
+#header {
     padding-top: 50px;
 
 }
-.nav-link{
+
+.nav-link {
     text-decoration: none;
     font-size: 1.5rem;
     padding-bottom: 40px;
 
 }
-@media (max-width: 800px){
-  
-    .nav-link:hover{
+.nav-link:hover{
         color: rgb(43, 226, 104);
     }
-    .nav-link:active{
+
+.nav-link:active{
         color: rgb(208, 255, 0);
     }
-    
-}
 
-ol{
-    
-    padding-left: 25px;
+ol {
+
+    padding-left: 30px;
     font-size: larger;
     top: 2em;
 }
-.navbar{
+
+.navbar {
     height: 100%;
     width: 25%;
-    position:fixed;
+    position: fixed;
     overflow-x: hidden;
     overflow-y: scroll;
     z-index: 1;
     left: 0;
     display: flex;
-    text-overflow:clip;
-   
+    text-overflow: clip;
+
 }
-p, ul{
+
+p,
+ul {
     justify-content: space-between;
     padding-bottom: 5px;
-    content:normal;
+    content: normal;
     word-spacing: 2px;
     letter-spacing: 0.8px;
     padding-bottom: 2px;
     font-size: 20px;
 }
-h1{
-    color:blue;
+
+h1 {
+    color: blue;
+}
+a{
+    padding-left: 5px;
+    padding-bottom: 0;
+}
+#Js_Documentation{
+    text-align: center;
+    
 }
